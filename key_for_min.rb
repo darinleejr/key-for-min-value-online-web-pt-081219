@@ -21,4 +21,29 @@ def key_for_min_value(name_hash)
   end
 end
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+def key_for_min_value(hash)
+  if hash.length == 0 
+    return nil 
+  else 
+    array = []
+    hash.each do |key, value|
+      array << value
+  end
+  min_num = array[0]
+  array.each do |value|
+  min_num = value if value > min_num
+  
+  
+  
+end
     
